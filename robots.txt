@@ -1,0 +1,5 @@
+User-agent:*
+Disallow:/*?
+Disallow:/images/
+
+Sitemap: http://www.googlehome.epizy.com/sitemap.xml
