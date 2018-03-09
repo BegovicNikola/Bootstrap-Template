@@ -4,8 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="keywords" content="Google Home, Google assistant, Home assistant, voice assistant, google home assistant"/>
-    <meta name="description" content="Google Home assistant is a new product created by the company Google, to make everyday life easier. It's a hands-free voice assistant, who can play music, search the internet and make a shopping list with a design that can fit into any type of home."/>
+    <meta name="keywords" content="home, google, assistant, purchase, voice"/>
+    <meta name="description" content="Google Home hands-free voice assistant is a new product created by the company Google, to make everyday life easier."/>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <!-- Bootstrap CSS -->
@@ -208,25 +208,42 @@
   <!-- CARDS START -->
     <div class="container" id="cards-top">
       <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="img/larryPage.jpg" alt="Larry Page"/>
-          <div class="card-body">
-            <h5 class="card-title text-center">Larry Page</h5>
-            <p class="card-text text-justify">Page is the chief executive officer CEO of Google's parent company, Alphabet Inc. After stepping aside as Google CEO in August 2001, in favor of Eric Schmidt, he re-assumed the role in April 2011.</p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/larryPage.jpg" alt="Larry Page"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Larry Page</h5>
+                <p class="card-text text-justify">Page is the chief executive officer CEO of Google's parent company, Alphabet Inc.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="img/sergeyBrin.jpg" alt="Sergey Brin"/>
-          <div class="card-body">
-            <h5 class="card-title text-center">Sergey Brin</h5>
-            <p class="card-text text-justify">Sergey Mikhaylovich Brin is a Russian-born American computer scientist and internet entrepreneur. Together with Larry Page, he co-founded Google. Brin is the President of Google's parent company Alphabet Inc.</p>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/sergeyBrin.jpg" alt="Sergey Brin"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Sergey Brin</h5>
+                <p class="card-text text-justify">Sergey Mikhaylovich Brin is a Russian born American computer scientist and internet entrepreneur.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="img/begovic.jpg" alt="Nikola Begovic"/>
-          <div class="card-body">
-            <h5 class="card-title text-center">Nikola Begović</h5>
-            <p class="card-text text-justify">Recently, I've made a complete career change and went from Petroleum engineering major to Web development. In my year off I got the chance to work on various projects, and with many different people.</p>
+          <div class="col-md-12 col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/begovic.jpg" alt="Nikola Begovic"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Nikola Begović</h5>
+                <p class="card-text text-justify">Recently, I've made a complete career change and went from Petroleum engineering major to Web development.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="card" id="lastCard">
+              <img class="card-img-top" src="img/user.png" alt="Google assistant"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Could be You</h5>
+                <p class="card-text text-justify">Become an employee of Google today. Apply below.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -266,12 +283,20 @@
     <footer id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6" id="social">
+          <div class="col-md-4" id="social">
             <a href="sitemap.xml" target="_blank"><span class="fa fa-sitemap"></span></a>
             <a href="https://github.com/BegovicNikola" target="_blank"><span class="fa fa-github"></span></a>
             <a href="https://www.linkedin.com/in/nikola-begovic-593b7a96/" target="_blank"><span class="fa fa-linkedin-square"></span></a>
           </div>
-          <div class="col-sm-6">
+          <div class="col-md-4" id="searchField">
+            <form action="#" method="GET">
+              <div class="row">
+                <button type="submit" class="col-2"><span class="fa fa-search"></span></button>
+                <input type="search" name="search" class="col-10" id="search" placeholder="Search..." />
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4">
             <p class="text-right">Nikola Begović &copy; 42/17</p>
           </div>
         </div>

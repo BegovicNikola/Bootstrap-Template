@@ -50,7 +50,7 @@ body{
 }
 
 .carousel-inner img{
-	max-height: 640px;
+	max-height: 700px;
 }
 
 .carousel-control-prev span, .carousel-control-next{
@@ -243,8 +243,8 @@ body{
 }
 
 .card-img-top{
-	height: 250px;
-	width: 250px;
+	height: 220px;
+	width: 220px;
 	border-radius: 50%;
 	overflow: hidden;
 	-moz-transition: 0.4s;
@@ -331,6 +331,17 @@ body{
 #footer a span:hover{
 	color: #444;
 }
+
+#searchField button{
+	background-color: #252525;
+	color: #fff;
+	border-color: #252525;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#searchField input{
+	border-radius: 0px 5px 5px 0px;
+}
 /*__FOOTER END__*/
 
 @media screen and (max-width: 992px) and (min-width: 768px){
@@ -345,10 +356,6 @@ body{
 
 	.showcase-right a{
 		font-size: 16px;
-	}
-
-	.card-deck{
-		flex-flow: column;
 	}
 
 	.missionImg>span{
@@ -404,22 +411,6 @@ body{
 	.missionImg>span{
 		margin-top: 20px;
 	}
-}
-
-@media screen and (max-width: 576px){
-
-	#logo a{
-		font-size: 24px;
-	}
-
-	#bars{
-		font-size: 20px;
-	}
-
-	.ccheight h5{
-		font-size: 20px;
-		text-shadow: 2px 2px 5px #000;
-	}
 
 	#footer p{
 		text-align: center !important;
@@ -432,6 +423,25 @@ body{
 
 	#footer a span{
 		margin: 0px 10px;
+	}
+
+	#searchField{
+		margin-top: 10px;
+	}
+
+	#lastCard{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px){
+
+	#logo a{
+		font-size: 24px;
+	}
+
+	#bars{
+		font-size: 20px;
 	}
 
 }

@@ -78,7 +78,7 @@ window.sr = ScrollReveal();
     delay: 700,
     duration: 1200,
     origin:"bottom" 
-  }, 400);
+  }, 300);
   sr.reveal("#contact form", {
   	delay: 200,
     duration: 1600,
