@@ -1,0 +1,26 @@
+#carousel{
+	margin-top: 40px;
+}
+
+.carousel-inner img{
+	max-height: 700px;
+}
+
+.carousel-control-prev span, .carousel-control-next{
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 2px 2px 5px #000;
+}
+
+.carousel-indicators li{
+	width: 30px;
+	height: 5px;
+	cursor: pointer;
+	margin: 0px 5px;
+	border: 1px solid #fff;
+	box-shadow: 1px 1px 5px #000;
+	background-color: rgba(255, 255, 255, 0.1);
+	-moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}

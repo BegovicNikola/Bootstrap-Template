@@ -1,0 +1,68 @@
+#content-top{
+    margin-top: 90px;
+    @media (max-width: 992px) and (min-width: 768px) {
+        margin-top: 40px;
+    }
+}
+.showcase {
+    h2 {
+        font-size:50px;
+        font-weight: bold;
+        margin-bottom:20px;
+    }
+    img{
+        width:100%;
+    }
+    
+}
+.showcase-right{
+    margin:20px 0px;
+    & > a{
+        border: 2px solid #252525;
+        color: #252525;
+        font-weight: bold;
+        &:hover{
+            box-shadow: 3px 3px 5px #888;
+        }
+    }
+    @media (max-width: 992px) and (min-width: 768px) {
+        h2{
+            font-size: 30px;
+        }
+    
+        a{
+            font-size: 16px;
+        }
+    
+        .missionImg>span{
+            margin-top: 20px;
+        }
+    
+    }
+    @media (max-width: 768px) {
+        h1{
+            font-size: 36px;
+        }
+    
+        a{
+            font-size: 16px;
+        }
+    
+    }
+
+    
+}
+.align{
+	display: flex;
+	align-items: center;
+}
+
+.modal-footer{
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .missionImg>span{
+        margin-top: 20px;
+    }
+}

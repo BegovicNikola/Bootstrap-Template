@@ -1,0 +1,55 @@
+#menu {
+    li {
+        margin-left: 20px;
+        & .active {
+            font-size: 24px;
+        }
+        a {
+            position: relative;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 1px 1px 5px #000;
+            border-left: 3px solid transparent;
+            border-right: 3px solid transparent;
+            -moz-transition: 0.4s;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+            &:hover {
+                border-left: 3px solid #fff;
+                border-right: 3px solid #fff;
+                &::before, &::after {
+                    opacity: 1;
+                    width: 100%;
+                }
+            }
+            &::before, &::after {
+                position: absolute;
+                opacity: 0;
+                width: 0%;
+                height: 3px;
+                content: '';
+                background: #FFF;
+                -moz-transition: 0.6s;
+                -webkit-transition: 0.6s;
+                transition: all 0.6s;
+            }
+            &::before {
+                left: 0px;
+                top: 0px;
+            }
+            &::after {
+                right: 0px;
+                bottom: 0px;
+            }
+        }
+    }
+}
+#menubtn{
+	outline: none;
+}
+#bars{
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 1px 1px 5px #000;
+}

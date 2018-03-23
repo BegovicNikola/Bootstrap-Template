@@ -1,0 +1,74 @@
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "mixins";
+@import "carousel";
+@import "landing";
+@import "logo";
+@import "menu";
+@import "showcase";
+@import "team";
+@import "testimonial";
+@import "utilites";
+@import "contact";
+@import "footer";
+
+@media (max-width: 768px) {
+	#order{
+		display: flex;
+		flex-flow: column;
+	}
+
+	#goesSecond{
+		order: 2;
+	}
+
+	#goesFirst{
+		order: 1;
+	}
+
+	.ccheight h5{
+		font-size: 30px;
+		text-shadow: 2px 2px 5px #000;
+	}
+
+	.card-deck{
+		flex-flow: column;
+	}
+
+	.missionImg>span{
+		margin-top: 20px;
+	}
+
+	#footer p{
+		text-align: center !important;
+		margin-top: 20px;
+	}
+
+	#social{
+		text-align: center;
+	}
+
+	#footer a span{
+		margin: 0px 10px;
+	}
+
+	#searchField{
+		margin-top: 10px;
+	}
+
+	#lastCard{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px){
+
+	#logo a{
+		font-size: 24px;
+	}
+
+	#bars{
+		font-size: 20px;
+	}
+
+}
