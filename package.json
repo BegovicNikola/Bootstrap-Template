@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malusev998/Bootstrap4Template.git"
+    "url": "git+https://github.com/BegovicNikola/Bootstrap4Template.git"
   },
   "author": "Nikola Begovic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/malusev998/Bootstrap4Template/issues"
+    "url": "https://github.com/BegovicNikola/Bootstrap4Template/issues"
   },
-  "homepage": "https://github.com/malusev998/Bootstrap4Template#readme",
+  "homepage": "https://github.com/BegovicNikola/Bootstrap4Template#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
