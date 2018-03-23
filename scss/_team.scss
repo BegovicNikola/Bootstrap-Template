@@ -1,0 +1,25 @@
+#cards-top{
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+
+.card{
+	border: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-img-top{
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	overflow: hidden;
+	-moz-transition: 0.4s;
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
+}
+
+.card-img-top:hover{
+	transform: scale(1.1);
+	box-shadow: 6px 6px 10px #888;
+}
