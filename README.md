@@ -2,4 +2,4 @@
 
 *Modest project with basic functionality.*
 
-##DEMO: http://www.googlehome.epizy.com/
+*DEMO:* http://www.googlehome.epizy.com/
