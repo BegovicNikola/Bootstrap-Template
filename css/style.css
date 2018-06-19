@@ -1,3 +1,5 @@
+/* ----- DODAJ -moz- i -webkit- NASTAVKE NA ATRIBUTE ----- */
+
 /*__GENERAL START__*/
 body{
 	font-family: "Ubuntu", "sans-serif";
@@ -37,7 +39,7 @@ body{
 }
 
 #landingImg>div>a:hover{
-	box-shadow: 4px 4px 10px #222;
+	box-shadow: 4px 4px 8px #222;
 }
 
 #landingImg>div>a:active{
@@ -49,8 +51,9 @@ body{
 	margin-top: 40px;
 }
 
-.carousel-inner img{
-	max-height: 700px;
+.ccheight h5{
+	font-size: 40px;
+	text-shadow: 2px 2px 5px #000;
 }
 
 .carousel-control-prev span, .carousel-control-next{
@@ -67,8 +70,6 @@ body{
 	border: 1px solid #fff;
 	box-shadow: 1px 1px 5px #000;
 	background-color: rgba(255, 255, 255, 0.1);
-	-moz-transition: 0.4s;
-	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
 /*__CAROUSEL END__*/
@@ -78,8 +79,6 @@ body{
 	font-family: "Poppins", "sans-serif";
 	font-size: 30px;
 	font-weight: bold;
-	-moz-transition: 0.4s;
-	-webkit-transition: 0.4s;
 	transition: 0.4s;
 	text-shadow: 1px 1px 5px #000;
 }
@@ -89,8 +88,6 @@ body{
 	top: 0;
 	left: 0;
 	z-index: 999;
-	-moz-transition: 0.4s;
-	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
 
@@ -112,8 +109,6 @@ body{
 	text-shadow: 1px 1px 5px #000;
 	border-left: 3px solid transparent;
 	border-right: 3px solid transparent;
-	-moz-transition: 0.4s;
-	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
 
@@ -129,8 +124,6 @@ body{
     height: 3px;
     content: '';
     background: #FFF;
-    -moz-transition: 0.6s;
-    -webkit-transition: 0.6s;
     transition: all 0.6s;
 }
 
@@ -230,7 +223,7 @@ body{
 	margin-bottom: 20px;
 }
 /*__TESTIMONIAL END__*/
-/*__TEAM START__*/
+/*__CARDS START__*/
 #cards-top{
 	margin-top: 90px;
 	margin-bottom: 60px;
@@ -243,12 +236,10 @@ body{
 }
 
 .card-img-top{
-	height: 220px;
-	width: 220px;
+	height: 250px;
+	width: 250px;
 	border-radius: 50%;
 	overflow: hidden;
-	-moz-transition: 0.4s;
-	-webkit-transition: 0.6s;
 	transition: 0.6s;
 }
 
@@ -256,7 +247,7 @@ body{
 	transform: scale(1.1);
 	box-shadow: 6px 6px 10px #888;
 }
-/*__TEAM END__*/
+/*__CARDS END__*/
 /*__CONTACT START__*/
 #contact{
 	background:url(../img/homeAssistant.png);
@@ -287,14 +278,14 @@ body{
 #contact button{
 	border: 2px solid #fff;
 	color: #fff;
-	background-color: rgba(37, 37, 37, 0.9);
+	background-color: rgba(255, 255, 255, 0.2);
 	text-shadow: 1px 1px 4px #000;
 	font-weight: bold;
 	box-shadow: 2px 2px 5px #000;
 }
 
 #contact button:hover{
-	background-color: rgba(37, 37, 37, 0.7);
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 #contact button[type="submit"]{
@@ -331,17 +322,6 @@ body{
 #footer a span:hover{
 	color: #444;
 }
-
-#searchField button{
-	background-color: #252525;
-	color: #fff;
-	border-color: #252525;
-	border-radius: 5px 0px 0px 5px;
-}
-
-#searchField input{
-	border-radius: 0px 5px 5px 0px;
-}
 /*__FOOTER END__*/
 
 @media screen and (max-width: 992px) and (min-width: 768px){
@@ -356,6 +336,10 @@ body{
 
 	.showcase-right a{
 		font-size: 16px;
+	}
+
+	.card-deck{
+		flex-flow: column;
 	}
 
 	.missionImg>span{
@@ -411,6 +395,22 @@ body{
 	.missionImg>span{
 		margin-top: 20px;
 	}
+}
+
+@media screen and (max-width: 576px){
+
+	#logo a{
+		font-size: 24px;
+	}
+
+	#bars{
+		font-size: 20px;
+	}
+
+	.ccheight h5{
+		font-size: 20px;
+		text-shadow: 2px 2px 5px #000;
+	}
 
 	#footer p{
 		text-align: center !important;
@@ -423,25 +423,6 @@ body{
 
 	#footer a span{
 		margin: 0px 10px;
-	}
-
-	#searchField{
-		margin-top: 10px;
-	}
-
-	#lastCard{
-		display: none;
-	}
-}
-
-@media screen and (max-width: 576px){
-
-	#logo a{
-		font-size: 24px;
-	}
-
-	#bars{
-		font-size: 20px;
 	}
 
 }

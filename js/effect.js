@@ -48,12 +48,12 @@ window.sr = ScrollReveal();
     origin:"right",
   });
   sr.reveal("#landingImg>div>p", {
-  	delay: 1000,
+  	delay: 1200,
     duration: 1200,
     origin:"right",
   });
   sr.reveal("#landingImg>div>a", {
-  	delay: 1400,
+  	delay: 1800,
     duration: 1200,
     origin:"right",
   });
@@ -71,16 +71,11 @@ window.sr = ScrollReveal();
     origin:"right",
   });
   sr.reveal(".mission", { 
-    duration: 1200,
-    origin:"bottom" 
-  }, 300);
-  sr.reveal(".card", { 
-    delay: 700,
-    duration: 1200,
-    origin:"bottom" 
-  }, 300);
-  sr.reveal("#contact form", {
-  	delay: 200,
     duration: 1600,
-    origin:"right",
-  });
+    origin:"bottom" 
+  }, 400);
+  sr.reveal(".card", { 
+    delay: 800,
+    duration: 1200,
+    origin:"bottom" 
+  }, 400);
