@@ -2,5 +2,5 @@
 
 *Modest project with basic functionality.*
 
-*DEMO:* http://www.googlehome.epizy.com/
+*DEMO:* https://begovicnikola.github.io/Bootstrap4Template/
 
